@@ -8,13 +8,17 @@
 int main(void)
 {
 
-	int i;
-	double d;
 	char c;
+	int i;
+	long int l;
+	long long int m;
+	float f;
 
-	printf("Size of an int is:%lu.\n", (unsigned long)sizeof(i));
-	printf("Size of a double is: %lu.\n", (unsigned long)sizeof(d));
-	printf("Size of an c is: %lu.\n", (unsigned long)sizeof(c));
+	printf("Size of a char: %lu.\n", sizeof(c));
+	printf("Size of an int: %lu.\n", sizeof(i));
+	printf("Size of a long int is: %lu.\n", sizeof(l));
+	printf("Size of a long long int: %lu.\n", sizeof(m));
+	printf("Size of a float: %lu.\n", sizeof(f));
 
 	return (0);
 
