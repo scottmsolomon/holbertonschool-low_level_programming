@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- *Size Matters
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -10,9 +12,9 @@ int main(void)
 	double d;
 	char c;
 
-	printf("The size of an int is:%lu.\n", (unsigned long)sizeof(i));
-	printf("The size of a double is: %lu.\n", (unsigned long)sizeof(d));
-	printf("The size of an c is: %lu.\n", (unsigned long)sizeof(c));
+	printf("Size of an int is:%lu.\n", (unsigned long)sizeof(i));
+	printf("Size of a double is: %lu.\n", (unsigned long)sizeof(d));
+	printf("Size of an c is: %lu.\n", (unsigned long)sizeof(c));
 
 	return (0);
 
