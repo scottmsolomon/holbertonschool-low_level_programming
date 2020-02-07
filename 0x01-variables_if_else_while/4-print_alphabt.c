@@ -13,20 +13,11 @@ int main(void)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if (ch = 'q')
-		{
-			return (0);
-		}
-		else if (ch = 'e')
-		{
-			return (0);
-		}
-		else
+		if (ch != 'q' && ch != 'e')
 		{
 			putchar(ch);
 		}
 	}
-	for
 	putchar('\n');
 	return (0);
 }
