@@ -1,21 +1,27 @@
-#include <stdio.h>
+#include "holberton.h"
 
 /**
- * main - entry point
+ * main - Make function that prints out Holberton_putchar
  *
- * using putchar
  *
- * Return: Always 0 (Success)
+ * Description: Make function that prints out Holberton
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 
 int main(void)
 {
-	char c = "Holberton";
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
+	_putchar('\n');
 
-	for (c = 0; c < 1; c++)
-	{
-		_putchar(c);
-	}
-	_putchar("\n");
 	return (0);
 }
