@@ -1,13 +1,10 @@
 #include "holberton.h"
 
 /**
- * main - Make function that prints out Holberton_putchar
+ * main - Make function that prints out Holberton _putchar
  *
- *
- * Description: Make function that prints out Holberton
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: On success - 1
+ * On error, -1 is returned, and errno is set appropriately
  */
 
 int main(void)
