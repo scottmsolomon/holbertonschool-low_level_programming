@@ -2,10 +2,6 @@
 
 /**
  * jack_bauer - print every minute of a day
- * @h1: tens place of hours
- * @h2: ones place of hours
- * @m1: tens place of hours
- * @m2: ones place of hours
  *
  * Prints every minute of a single day
  * Return: 0 (success)
