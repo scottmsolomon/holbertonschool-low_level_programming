@@ -1,18 +1,15 @@
 #include "holberton.h"
 
 /**
- * jack_bauer - print every minute of a day
+ * times_table  - print the 9s time table
  *
- * Prints every minute of a single day
+ * Prints all multiplications for all numbers up to 9x9
  * Return: 0 (success)
  */
 
 void times_table(void)
 {
-	int r;
-	int c;
-	int m;
-	int n;
+	int r, c, m;
 
 	for (r = 0; r <= 9; r++)
 	{
@@ -24,33 +21,22 @@ void times_table(void)
 				if (m >= 10)
 				{
 					_putchar(32);
-					n = m % 10;
-					m = m / 10;
-					_putchar(m + 48);
-					_putchar(n + 48);
-					if (c < 9)
-					{
-						_putchar(44);
-					}
-					else if (c == 9)
-					{
-						_putchar('\n');
-					}
-				}	
+					_putchar((m / 10) + 48);
+					_putchar((m % 10) + 48);
+				}
 				else
 				{
-					m = m % 10;
 					_putchar(32);
 					_putchar(32);
-					_putchar(m + 48);
-					if (c < 9)
-					{
-						_putchar(44);
-					}
-					else if (c == 9)
-					{
-						_putchar('\n');
-					}
+					_putchar((m % 10) + 48);
+				}
+				if (c < 9)
+				{
+					_putchar(44);
+				}
+				else if (c == 9)
+				{
+					_putchar('\n');
 				}
 			}
 			else
@@ -58,6 +44,6 @@ void times_table(void)
 				_putchar(m + 48);
 				_putchar(44);
 			}
-		}	
+		}
 	}
 }
