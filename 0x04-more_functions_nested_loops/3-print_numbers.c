@@ -2,7 +2,6 @@
 
 /**
  * print_numbers - print numbers
- * @n: number
  *
  * Print the numbers 0-9
  * Return: Always 0 (Success)
