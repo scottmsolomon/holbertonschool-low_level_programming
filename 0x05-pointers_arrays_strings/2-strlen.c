@@ -1,23 +1,21 @@
 #include "holberton.h"
 
 /**
- * swap_int - Swaps the integer values
- * @a: first integer
- * @b: second integer
+ * _strlen - Print length of string
+ * @s: array
  *
- * Swaps one integer with another
- * Return 0 Always (Success)
+ * Prints length of string
+ * Return: i (Success)
  */
 
 int _strlen(char *s)
 {
-	int str[];
-	int n;
+	int i = 0;
 
-	while (str[n] != '\0')
+	while (s[i] != '\0')
 	{
-		n++;
+		i++;
 	}
 
-	return (n);
+	return (i);
 }
